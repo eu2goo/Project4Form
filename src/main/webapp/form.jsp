@@ -24,7 +24,27 @@
       </br></br>
       <%="생년월일:"%> <input type="date" name="birth"/>
       </br></br>
-      학부: <select>
+      <%="학기수 : "%> <select id="semester">
+      <option value="1"><%="1학기"%></option>
+      <option value="2"><%="2학기"%></option>
+      <option value="3"><%="3학기"%></option>
+      <option value="4"><%="4학기"%></option>
+      <option value="1"><%="5학기"%></option>
+      <option value="2"><%="6학기"%></option>
+      <option value="3"><%="7학기"%></option>
+      <option value="4"><%="8학기 이상"%></option>
+      </select>
+      </br></br>
+      <%="RC : "%> <select id="rc">
+      <option value="1"><%="손양원"%></option>
+      <option value="2"><%="카이퍼"%></option>
+      <option value="3"><%="장기려"%></option>
+      <option value="4"><%="토레이"%></option>
+      <option value="1"><%="카마이클"%></option>
+      <option value="2"><%="열송학사"%></option>
+    </select>
+      </br></br>
+      <%="학부: "%> <select id="major">
       <option value="1"><%="글로벌리더십학부"%></option>
       <option value="2"><%="국제어문학부"%></option>
       <option value="3"><%="경영경제학부"%></option>
