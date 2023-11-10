@@ -2,11 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>JSP - Project4_form_22200296</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Project4_form" %>
 </h1>
+<%="22200296 박소연"%>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 </body>
